@@ -1,0 +1,76 @@
+.page {
+  min-height: 100vh;
+}
+
+.layout {
+  display: flex;
+}
+
+.layout.row {
+  flex-direction: row;
+}
+
+.layout.column {
+  flex-direction: column;
+}
+
+.layout.--wrap {
+  flex-wrap: wrap;
+}
+
+.layout.m-start {
+  justify-content: flex-start;
+}
+
+.layout.m-end {
+  justify-content: flex-end;
+}
+
+.layout.m-center {
+  justify-content: center;
+}
+
+.layout.m-around {
+  justify-content: space-around;
+}
+
+.layout.m-between {
+  justify-content: space-between;
+}
+
+.layout.m-evenly {
+  justify-content: space-evenly;
+}
+
+.layout.x-start {
+  align-items: flex-start;
+}
+
+.layout.x-end {
+  align-items: flex-end;
+}
+
+.layout.x-center {
+  align-items: center;
+}
+
+.layout.x-stretch {
+  align-items: stretch;
+}
+
+.layout.x-baseline {
+  align-items: baseline;
+}
+
+.flex {
+  flex: 1 1 auto;
+}
+
+.flex-none {
+  flex: 0 1 auto;
+}
+
+.flex-basis {
+  flex-grow: 0;
+  flex-shrink: 1;
+}
