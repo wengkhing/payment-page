@@ -1,28 +1,123 @@
-.App {
+.title-bar {
+  color: #002089;
+}
+
+.title-bar__title {
+  font-size: 24px;
   text-align: center;
+  padding: 16px 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
+.btn-back {
+  position: absolute;
+  font-size: 16px;
+  height: 20px;
+  width: 20px;
+  left: 0px;
+  top: 0px;
   padding: 20px;
-  color: white;
+  cursor: pointer;
 }
 
-.App-title {
-  font-size: 1.5em;
+.suggestion {
+  background-color: #cee4ff;
+  color: #002089;
+  padding: 24px;
 }
 
-.App-intro {
-  font-size: large;
+.suggestion__button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #002089;
+  color: #002089;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.suggestion__text {
+  padding: 0px 12px;
+  line-height: 24px;
+}
+
+.items {
+  margin: 24px 0px;
+}
+
+.item {
+  padding: 6px 24px;
+}
+
+.item__image-container {
+  flex-basis: 120px;
+  padding-right: 8px;
+}
+
+.item__title {
+  color: #002089;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.item__subtitle {
+  color: #7a7a7a;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.item__remove {
+  display: block;
+  font-size: 28px;
+  line-height: 28px;
+  padding: 0px 0px 16px 16px;
+  color: #7a7a7a;
+  cursor: pointer;
+  text-align: right;
+}
+
+.item__value {
+  color: #7a7a7a;
+}
+
+.item__counter-button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.item__counter-display {
+  padding: 0px 12px;
+}
+
+.price {
+  padding: 6px 24px;
+}
+
+.price__label {
+  text-transform: uppercase;
+  color: #444;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.price__value {
+  color: #7a7a7a;
+}
+
+.call-to-action {
+  margin-top: 24px;
+}
+
+.btn-gift-code {
+  color: #444;
+  margin: 36px 16px 0;
+  cursor: pointer;
 }

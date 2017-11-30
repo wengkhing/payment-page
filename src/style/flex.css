@@ -63,12 +63,13 @@
 }
 
 .flex {
+  flex: 0 1 auto;
+}
+
+.flex-grow {
   flex: 1 1 auto;
 }
 
-.flex-none {
-  flex: 0 1 auto;
-}
 
 .flex-basis {
   flex-grow: 0;
