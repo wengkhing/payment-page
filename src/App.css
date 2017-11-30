@@ -28,6 +28,10 @@
   padding: 24px;
 }
 
+.suggestion__value {
+  text-align: right;
+}
+
 .suggestion__button {
   display: block;
   width: 30px;

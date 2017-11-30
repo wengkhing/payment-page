@@ -52,7 +52,7 @@ class App extends Component {
                 <a className="item__remove">x</a>
               </div>
               <div className="flex">
-                <span class="item__value">$850.00</span>
+                <span className="item__value">$850.00</span>
               </div>
             </div>
           </div>
